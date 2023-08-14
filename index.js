@@ -3,10 +3,12 @@ function receivesAFunction(callback) {
 }
 
 function returnsANamedFunction(){
-    return function namedfunction(){
+    return function namedfunction() {
     }
 }
 
 function returnsAnAnonymousFunction(){
-    return function
+    return function () {
+
+    }
 }
